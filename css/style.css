@@ -12,6 +12,31 @@
 /* font-family: "Roboto", sans-serif;
 font-family: "Raleway", sans-serif; */
 
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img{
+    display: block;
+}
+
+.box {
+    margin: 0%;
+    padding: 0%;
+}
+
 .logo-color {
 color: var(--accent-color);
 font-family: "Raleway", sans-serif;
