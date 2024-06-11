@@ -1,12 +1,12 @@
-:root{
-    --accent-color: #2196F3;
-    --logo-color: #000000;
-    --text-color: #212121;
-    --additional-text: #757575;
-    --backgroud-color: #FFFFFF;
-    --backgroud-team: #F5F4FA;
-    --backgroud-footer: #2F303A;
-    --footer-number: rgba(255, 255, 255, 0.60);
+:root {
+--accent-color: #2196F3;
+--logo-color: #000000;
+--text-color: #212121;
+--additional-text: #757575;
+--backgroud-color: #FFFFFF;
+--backgroud-team: #F5F4FA;
+--backgroud-footer: #2F303A;
+--footer-number: rgba(255, 255, 255, 0.60);
 }
 
 /* font-family: "Roboto", sans-serif;
@@ -35,6 +35,21 @@ img{
 .box {
     margin: 0%;
     padding: 0%;
+}
+
+.container {
+    outline: solid red;
+    width: 1230px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* header */
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .logo-color {
@@ -95,8 +110,11 @@ line-height: 1.14;
 letter-spacing: 0.28px;
 } 
 
+/* секція герой */
 .hero {
     background-color: var(--backgroud-footer);
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero-title {
@@ -111,11 +129,21 @@ text-transform: uppercase;
 
 .hero-button {
 color: var(--backgroud-color);
+background-color: var(--accent-color);
+padding-top: 10px;
+padding-right: 32px;
+padding-bottom: 10px;
+padding-left: 10px;
 font-family: "Roboto", sans-serif;
 font-size: 16px;
 font-weight: 700;
 line-height: 1.87;
 letter-spacing: 0.96px;
+}
+
+/* секція переваги */
+.skills {
+    padding-top: 94px;
 }
 
 .skill-title {
@@ -137,6 +165,12 @@ line-height: 1.72;
 letter-spacing: 0.42px;
 }
 
+/* секція чим ми займаємось */
+.work{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .work-title {
 color: var(--text-color);
 font-family: "Roboto", sans-serif;
@@ -146,6 +180,13 @@ line-height: 1.17;
 letter-spacing: 1.08px;
 }
 
+/* секція команда */
+
+.team {
+    background-color: var(--backgroud-team);
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .team-title {
 color: var(--text-color);
 font-family: "Roboto", sans-serif;
@@ -161,7 +202,7 @@ font-family: "Roboto", sans-serif;
 font-size: 16px;
 font-weight: 500;
 line-height: normal;
-letter-spacing: 1.19;
+letter-spacing: 1.19px;
 }
 
 .team-desc {
@@ -173,8 +214,11 @@ line-height: 1.19;
 letter-spacing: 0.48px;
 }
 
+/* footer */
 .footer {
     background-color: var(--backgroud-footer);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .address-link {

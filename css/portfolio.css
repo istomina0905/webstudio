@@ -12,7 +12,45 @@
 /* font-family: "Roboto", sans-serif;
 font-family: "Raleway", sans-serif; */
 
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img{
+    display: block;
+}
+
+.box {
+    margin: 0%;
+    padding: 0%;
+}
+
+.container {
+    outline: solid red;
+    width: 1230px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 /* header */
+.header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
 .logo-color {
 color: var(--accent-color);
 font-family: "Raleway", sans-serif;
@@ -72,8 +110,19 @@ letter-spacing: 0.28px;
 } 
 
 /* body */
+.example {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .button-item {
 color: var(--text-color);
+background-color: var(--backgroud-team);
+padding-top: 6px;
+padding-right: 22px;
+padding-bottom: 6px;
+padding: 22px;
+border: transparent;
 font-family: "Roboto", sans-serif;
 font-size: 16px;
 font-weight: 500;
@@ -83,6 +132,7 @@ letter-spacing: 0.48px;
 
 .button-item:hover {
 color: var(--backgroud-color);
+background-color: var(--accent-color);
 font-family: "Roboto", sans-serif;
 font-size: 16px;
 font-weight: 500;
@@ -111,6 +161,8 @@ letter-spacing: 0.48px;
 /* footer */
 .footer {
     background-color: var(--backgroud-footer);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-logo {
