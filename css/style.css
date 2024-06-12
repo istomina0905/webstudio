@@ -38,7 +38,7 @@ img{
 }
 
 .container {
-    outline: solid red;
+    /* outline: solid red; */
     width: 1200px;
     margin: 0 auto;
     padding-left: 15px;
