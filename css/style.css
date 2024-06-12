@@ -6,6 +6,7 @@
 --backgroud-color: #FFFFFF;
 --backgroud-team: #F5F4FA;
 --backgroud-footer: #2F303A;
+--card-stroke: #EEEEEE;
 --footer-number: rgba(255, 255, 255, 0.60);
 }
 
@@ -54,7 +55,6 @@ img{
 
 .header> .container {
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
 }
 
@@ -136,11 +136,11 @@ letter-spacing: 0.28px;
     padding-bottom: 200px;
 }
 
-/* .hero> .container {
+.hero> .container {
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
-} */
+}
 
 .hero-title {
 color: var(--backgroud-color);
@@ -151,7 +151,10 @@ line-height: 1.36;
 letter-spacing: 2.64px;
 text-transform: uppercase;
 text-align: center;
+display: flex;
+justify-content: center;
 width: 696px;
+margin-bottom: 30px;
 }
 
 .hero-button {
@@ -166,11 +169,21 @@ font-size: 16px;
 font-weight: 700;
 line-height: 1.87;
 letter-spacing: 0.96px;
+border-radius: 4px;
+display: flex;
+justify-content: center;
+border: transparent;
 }
 
 /* секція переваги */
 .skills {
     padding-top: 94px;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .skill-title {
@@ -181,6 +194,7 @@ font-weight: 700;
 line-height: 1.14;
 letter-spacing: 0.42px;
 text-transform: uppercase;
+margin-bottom: 10px;
 }
 
 .skill-desc {
@@ -190,12 +204,20 @@ font-size: 14px;
 font-weight: 400;
 line-height: 1.72;
 letter-spacing: 0.42px;
+width: 270px;
 }
 
 /* секція чим ми займаємось */
 .work{
     padding-top: 94px;
     padding-bottom: 94px;
+}
+
+.work> .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .work-title {
@@ -205,6 +227,17 @@ font-size: 36px;
 font-weight: 700;
 line-height: 1.17;
 letter-spacing: 1.08px;
+justify-content: center;
+margin-bottom: 50px;
+}
+
+.work-list {
+    display: flex;
+    gap: 30px;
+}
+
+.work-item {
+    width: 370px;
 }
 
 /* секція команда */
@@ -214,6 +247,26 @@ letter-spacing: 1.08px;
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
+.team> .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.team-list {
+    display: flex;
+    flex-wrap: nowrap;
+    /* background-color: var(--backgroud-color);
+    height: 368px; */
+    gap: 30px;
+}
+
+.team-item {
+    background-color: var(--backgroud-color);
+    height: 368px;
+}
+
 .team-title {
 color: var(--text-color);
 font-family: "Roboto", sans-serif;
@@ -221,6 +274,12 @@ font-size: 36px;
 font-weight: 700;
 line-height: 1.17;
 letter-spacing: 1.08px; 
+margin-bottom: 50px;
+}
+
+.team-image {
+    width: 270px;
+    margin-bottom: 30px;
 }
 
 .team-name {
@@ -230,6 +289,8 @@ font-size: 16px;
 font-weight: 500;
 line-height: normal;
 letter-spacing: 1.19px;
+text-align: center;
+margin-bottom: 10px;
 }
 
 .team-desc {
@@ -239,6 +300,7 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.19;
 letter-spacing: 0.48px;
+text-align: center;
 }
 
 /* footer */
@@ -257,6 +319,16 @@ letter-spacing: 0.48px;
     letter-spacing: 0.78px;
     }
 
+.footer> .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-address {
+    margin-top: 20px;
+}
+
 .address-link {
     color: var(--backgroud-color);
     font-family: "Roboto", sans-serif;
@@ -264,6 +336,10 @@ letter-spacing: 0.48px;
     font-weight: 400;
     line-height: 1.71; 
     letter-spacing: 0.42px;
+}
+
+.footer-item {
+    margin-top: 9px;
 }
 
 .footer-link {
