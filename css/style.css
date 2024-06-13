@@ -257,14 +257,15 @@ margin-bottom: 50px;
 .team-list {
     display: flex;
     flex-wrap: nowrap;
-    /* background-color: var(--backgroud-color);
-    height: 368px; */
     gap: 30px;
 }
 
 .team-item {
     background-color: var(--backgroud-color);
     height: 368px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .team-title {
@@ -279,6 +280,12 @@ margin-bottom: 50px;
 
 .team-image {
     width: 270px;
+    display: flex;
+    justify-content: center;
+}
+
+.team-item> .box {
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 
@@ -290,6 +297,7 @@ font-weight: 500;
 line-height: normal;
 letter-spacing: 1.19px;
 text-align: center;
+white-space: nowrap;
 margin-bottom: 10px;
 }
 
@@ -301,6 +309,7 @@ font-weight: 400;
 line-height: 1.19;
 letter-spacing: 0.48px;
 text-align: center;
+white-space: nowrap;
 }
 
 /* footer */
