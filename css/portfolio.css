@@ -178,11 +178,12 @@ letter-spacing: 0.48px;
 
 .example-item {
     background-color: var(--backgroud-color);
-    outline: solid 1px var(--card-stroke);
+    flex-basis: calc((100% - 60px) / 3);
+    border: 1px solid #EEE;
 }
 
 .example-img {
-    width: 370px;
+    width: 100%;
 }
 
 .example-item> .box {
