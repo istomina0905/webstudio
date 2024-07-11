@@ -131,7 +131,10 @@ letter-spacing: 0.28px;
 
 /* секція герой */
 .hero {
-    background-image: url(../images/backgroung_hero.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../images/backgroung_hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding-top: 200px;
     padding-bottom: 200px;
 }
