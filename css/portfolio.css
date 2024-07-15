@@ -52,31 +52,13 @@ img{
 .header {
     padding-top: 24px;
     padding-bottom: 25px;
-    padding-bottom: 32px;
-    /* outline: var(--outline); */
+    border-bottom: 2px solid var(--outline);
 }
-
-/* .header::after {
-    content: "";
-    border: var(--outline);
-    width: 1600px;
-    height: 1px;
-    border-bottom: var(--outline);
-    background-color: var(--outline);
-} */
 
 .header> .container {
     display: flex;
     align-items: center;
     /* outline: var(--outline); */
-}
-
-.header> .container::after {
-    content: "";
-    width: 1600px;
-    height: 1px;
-    background-color: var(--outline);
-    display: flex;
 }
 
 .logo-color {
@@ -151,10 +133,6 @@ font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.28px;
 } 
-
-.header-item:nth-child(2) {
-    width: 122px;
-}
 
 /* body */
 .example {
